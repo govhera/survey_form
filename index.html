@@ -1,0 +1,151 @@
+
+
+<style>
+body{
+  text-align:center;
+  font-family: sans-serif;
+  background-image:linear-gradient(to bottom right, #33adff, #7300e6);
+  color:white;
+}
+
+#title{
+  font-size:45px;
+}
+#description{
+  font-size:20px;
+}
+
+
+#body{
+  width:600px;
+  padding: 30px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:rgba(0,0,0,0.6);
+  font-size:20px;
+  color:white;
+}
+
+#name{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#email{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#number{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#dropdown{
+  width:560px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+}
+
+#comment{
+  width:590px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+}
+
+#submit{
+  width:590px;
+  padding:10px;
+  font-size:20px;
+  border-radius:10px;
+  border:none;
+  margin-top:3%;
+  color:white;
+  background-color:green;
+}
+
+</style>
+
+<h1 id="title">Fall Enrollment Survey Form</h1>
+​
+<p id="description">Thank you for taking the time to help us understand student needs</p>
+​
+<div id="body">
+​
+<form id="survey-form">
+
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+
+
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+
+<label id="number-label" for="number">
+  <p>Age:</p>
+</label>
+
+
+<input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+
+
+
+  <p>What makes you feel the most when returning to campus?</p>
+  <select id="dropdown">
+
+    <option value="default">Nothing</option>
+    <option value="He has a moral center.">Campus following thorough cleaning routine.</option>
+    <option value="He stands for something.">Students wearing mask.</option>
+    <option value="He shuns the limelight.">Cafeterias being closed.</option>
+    <option value="He protects his team.">Extra sanitizer dispensor being placed in classes.</option>
+    <option value="He adapts to strengths and weaknesses.">Socially distancing with hybrid setting for large classes where social distancing is not possible.</option>
+
+  </select>
+
+  <p>When above procedures followed what are the chances that you would consider coming to campus?</p>
+
+  <input type="radio" name="movie" value="1">Strongly Agree</input>
+  <br>
+  <input type="radio" name="movie" value="2">Agree</input>
+  <br>
+ <input type="radio" name="movies" value="3">Undecided/input>
+<br>
+ <input type="radio" name="movies" value="4">Neutral</input>
+<br>
+ <input type="radio" name="movies" value="5">Disagree</input>
+<br>
+<input type="radio" name="movies" value="6">Strongly Disagree</input>
+<br>
+
+<p>What are the rules that would be appealing for you as incoming Fall student?</p>
+
+<input type="checkbox" name="avenger" value="1">No Food or Drink Policy</input>
+<br>
+ <input type="checkbox" name="avengers" value="2">Available Mask Station</input>
+<br>
+ <input type="checkbox" name="avengers" value="3">Available Glove Station</input>
+<br>
+ <input type="checkbox" name="avengers" value="4">Limit Student Movement On Campus</input>
+<br>
+ <input type="checkbox" name="avengers" value="5">Cancel Extracarricular Activities</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+
+</form>
+
+</div>
